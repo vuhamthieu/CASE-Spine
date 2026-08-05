@@ -2,17 +2,17 @@
   "C_Cpp.intelliSenseEngine": "default",
   "idf.extensionActivationMode": "always",
   "idf.openOcdConfigs": [
-    "board/esp32s3-builtin.cfg"
+    "board/esp32-wrover-kit-3.3v.cfg"
   ],
   "idf.port": "detect",
   "idf.currentSetup": "/home/vuhamthieu/esp/v5.4.2/esp-idf",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32s3"
+    "IDF_TARGET": "esp32"
   },
   "clangd.path": "/home/vuhamthieu/.espressif/tools/esp-clang/esp-18.1.2_20240912/esp-clang/bin/clangd",
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=/home/vuhamthieu/Projects/OverByte-Spine/build"
+    "--compile-commands-dir=/home/vuhamthieu/Projects/CASE-Spine/build"
   ]
 }
